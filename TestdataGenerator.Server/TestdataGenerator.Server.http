@@ -1,0 +1,6 @@
+@TestdataGenerator.Server_HostAddress = http://localhost:5268
+
+GET {{TestdataGenerator.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
